@@ -8,15 +8,15 @@ import pf3 from "../assets/img/project3.png";
 
 const Jsprojects = () => {
   return (
-    <div className="jsprojects">
+    <div className="jsprojects" data-aos="zoom-out">
       <div className="container">
         <div className="row">
-          <div className="col-sm-10 offset-sm-1">
+          <div className="col-sm-14 offset-sm-1">
             <h2>Projects</h2>
             <br />
             <div className="row">
 
-                <div className="col-sm-6" style={{border: "2px solid "}}>
+                <div className="col-sm-5" style={{border: "2px solid ", marginRight: "10px"}}>
                   <img src={pf1} style={{width: "450px", marginBottom:"12px",marginTop:"12px"}}/>
                   <br />
                   <a
@@ -37,7 +37,7 @@ const Jsprojects = () => {
                     Preview <img src={githubImg} alt={"i"} />
                   </a>
                 </div>
-                <div className="col-sm-6" style={{border: "2px solid "}}>
+                <div className="col-sm-5" style={{border: "2px solid "}}>
                   <img src={pf2} style={{width: "450px", marginBottom:"12px",marginTop:"12px"}}/>
                   <br />
                   <a
