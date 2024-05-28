@@ -37,7 +37,27 @@ const Jsprojects = () => {
                     Preview <img src={githubImg} alt={"i"} />
                   </a>
                 </div>
-
+                <div className="col-sm-6" style={{border: "2px solid "}}>
+                  <img src={pf2} style={{width: "450px", marginBottom:"12px",marginTop:"12px"}}/>
+                  <br />
+                  <a
+                    href={"https://github.com/raoufkh1/LMS-Main"}
+                    className="btn btn-default github"
+                    style={{marginRight: "15px"}}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Code <img src={githubImg} alt={"i"} />
+                  </a>
+                  <a
+                    href={"https://lms-main-six.vercel.app/"}
+                    className="btn btn-default github"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Preview <img src={githubImg} alt={"i"} />
+                  </a>
+                </div>
             </div>
             <br />
             
